@@ -1,0 +1,90 @@
+body {
+  background-color: #666562;
+  margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.page {
+  text-align: center;
+}
+
+.title {
+  color: #cf653e;
+  font-size: 62px;
+  text-shadow: -1px 0px 1px rgba(0,0,0,0.81);
+}
+
+.clock {
+  font-size: 60px;
+  color: #5b388a;
+  text-shadow: -1px 0px 1px rgba(0,0,0,0.81);
+}
+
+.buttons {
+  margin-top: 50px;
+}
+
+.button {
+  height: 35px;
+  font-size: 14px;
+  width: 150px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.buttons__left {
+  margin-right: 8px;
+  margin-bottom: 20px;
+  background-color: #4a75ba;
+}
+
+.buttons__right {
+  margin-left: 8px;
+  background-color: #d13232;
+}
+
+.buttons__left:hover {
+  background-color: #497de6;
+}
+
+.buttons__right:hover {
+  background-color: #eb2a2a;
+}
+
+.time-alarm {
+  margin-left: 15px;
+}
+
+.what-time-alarm {
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+  text-shadow: -1px 0px 1px rgba(0,0,0,0.81);
+}
+
+.table__delete-alarms {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.alarms-table {
+  border-collapse: collapse;
+  width: 300px;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  background-color:rgba(206, 209, 214, 0.7)
+}
+
+.alarms-table > tr, td, th {
+  border: 1px solid black;
+  height: 40px;
+  font-weight: 700;
+}
